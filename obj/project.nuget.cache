@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aZuKn/b5XuQ=",
+  "success": true,
+  "projectFilePath": "/home/ubuntu/Client_net60/Client_net60.csproj",
+  "expectedPackageFiles": [
+    "/home/ubuntu/.nuget/packages/ilmerge/3.0.41/ilmerge.3.0.41.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/6.0.36/microsoft.netcore.app.runtime.linux-x64.6.0.36.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/6.0.36/microsoft.aspnetcore.app.runtime.linux-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}
