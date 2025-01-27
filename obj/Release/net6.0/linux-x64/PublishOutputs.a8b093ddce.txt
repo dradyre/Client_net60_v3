@@ -1,0 +1,1 @@
+/home/ubuntu/Client_net_v3/bin/Release/net6.0/linux-x64/publish/AnonBear

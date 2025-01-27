@@ -13,9 +13,12 @@
     <SourceRoot Include="/home/ubuntu/.nuget/packages/" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks/7.0.100-1.23401.1/build/Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks/7.0.100-1.23401.1/build/Microsoft.NET.ILLink.Tasks.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.analyzers/7.0.100-1.23401.1/build/Microsoft.NET.ILLink.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.analyzers/7.0.100-1.23401.1/build/Microsoft.NET.ILLink.Analyzers.props')" />
     <Import Project="$(NuGetPackageRoot)ilmerge/3.0.41/build/ILMerge.props" Condition="Exists('$(NuGetPackageRoot)ilmerge/3.0.41/build/ILMerge.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">/home/ubuntu/.nuget/packages/microsoft.net.illink.tasks/7.0.100-1.23401.1</PkgMicrosoft_NET_ILLink_Tasks>
     <PkgILMerge Condition=" '$(PkgILMerge)' == '' ">/home/ubuntu/.nuget/packages/ilmerge/3.0.41</PkgILMerge>
   </PropertyGroup>
 </Project>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ubuntu/Client_net60/Client_net60.csproj": {}
+    "/home/ubuntu/Client_net_v3/Client_net60.csproj": {}
   },
   "projects": {
-    "/home/ubuntu/Client_net60/Client_net60.csproj": {
+    "/home/ubuntu/Client_net_v3/Client_net60.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ubuntu/Client_net60/Client_net60.csproj",
+        "projectUniqueName": "/home/ubuntu/Client_net_v3/Client_net60.csproj",
         "projectName": "AnonBear",
-        "projectPath": "/home/ubuntu/Client_net60/Client_net60.csproj",
+        "projectPath": "/home/ubuntu/Client_net_v3/Client_net60.csproj",
         "packagesPath": "/home/ubuntu/.nuget/packages/",
-        "outputPath": "/home/ubuntu/Client_net60/obj/",
+        "outputPath": "/home/ubuntu/Client_net_v3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ubuntu/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.NET.ILLink.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23401.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23401.1, )",
+              "autoReferenced": true
+            },
             "ilmerge": {
               "target": "Package",
               "version": "[3.0.41, )"
